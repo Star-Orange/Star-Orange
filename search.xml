@@ -11,6 +11,30 @@
         <content type="html"><![CDATA[<h1 id="标题一"><a href="#标题一" class="headerlink" title="标题一"></a>标题一</h1><h2 id="标题二"><a href="#标题二" class="headerlink" title="标题二"></a>标题二</h2>]]></content>
       
       
+      <categories>
+          
+          <category> JAVA </category>
+          
+          <category> Mysql </category>
+          
+          <category> Python </category>
+          
+          <category> 计算机基础 </category>
+          
+          <category> 算法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JAVA </tag>
+            
+            <tag> Springboot </tag>
+            
+            <tag> 计算机基础 </tag>
+            
+        </tags>
       
     </entry>
     
