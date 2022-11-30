@@ -1,5 +1,11 @@
 ---
-title: Hello World
+title: Copyright-beautify # 文章名称
+date: 2021-03-02 13:52:46 # 文章发布日期
+updated: 2021-03-02 13:52:46 # 文章更新日期
+copyright_author: Nesxc # 作者覆写
+copyright_url: https://www.nesxc.com/post/hexocc.html # 原文链接覆写
+license: # 许可协议名称覆写
+license_url: # 许可协议链接覆写
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
