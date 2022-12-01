@@ -4,13 +4,50 @@
   
     
     <entry>
-      <title></title>
+      <title>Mysql 常用命令</title>
       <link href="/2022/12/01/221201-Mysql-CommonOrder/"/>
       <url>/2022/12/01/221201-Mysql-CommonOrder/</url>
       
         <content type="html"><![CDATA[]]></content>
       
       
+      <categories>
+          
+          <category> SQL笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Mysql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>VSCode Markdown 自定义代码片段</title>
+      <link href="/2022/12/01/221201-vscode-completions/"/>
+      <url>/2022/12/01/221201-vscode-completions/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>在写博客的时候，觉得如果每一篇博客都要写头顶上的title,date…. 等信息的话会很繁琐,想到vscode 有自定义的代码缩写功能，在网上找了一下决定记录一下。</p></blockquote><h1 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h1><ul><li>快速构建一些繁琐且具有一定常用性的语句</li></ul><h1 id="自定义代码片段"><a href="#自定义代码片段" class="headerlink" title="自定义代码片段"></a>自定义代码片段</h1><p>打开文件-&gt;首选项-&gt;配置用户代码片段(点击)<br><details class="folding-tag" ><summary> 图示 </summary>              <div class='content'>              <p><img src="https://tva1.sinaimg.cn/large/007aspWngy1h8on7xsvumj30fp0mrwkl.jpg" alt="打开代码片段"></p>              </div>            </details></p><p>选择Markdwon.json 或者 搜索 Markdwon.json<br>或者选择新建全局代码片段文件(最好选择Markdwon.json)</p><details class="folding-tag" ><summary> 图示 </summary>              <div class='content'>              <p><img src="https://tva1.sinaimg.cn/large/007aspWngy1h8onj7zzh0j30go0c7q5t.jpg" alt="打开代码片段"></p>              </div>            </details><div class="table-container"><table><thead><tr><th>代码</th><th>示意</th></tr></thead><tbody><tr><td>scope</td><td>字段中填写以逗号分隔的作用域 Id，如果 scope 字段为空或根本没有设置，那么将适用于所有语言。(如果选择的是Markdown.json的话不用写这个)</td></tr><tr><td>prefix</td><td>是用于触发代码片段的一段文字，当你输入这个文字的时候，你将可以展开这个代码片段的内容并将其插入。</td></tr><tr><td>body</td><td>你可以使用 $1 $2 来作为按下 Tab 时将切换的键盘焦点区域，$0 是插入完成后最终光标所在的位置。你也可以使用 ${1:label} 或 ${2:another} 这样的方式来增加占位符，同样 Id 的占位符将会自动关联起来。</td></tr><tr><td>description</td><td>代码解释，没多少用，但是写着方便以后查看</td></tr></tbody></table></div><details class="folding-tag" ><summary> 代码与图示 </summary>              <div class='content'>              <div class="tabs" id="代码与图示"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#代码与图示-1">代码</button></li><li class="tab"><button type="button" data-href="#代码与图示-2">图示</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="代码与图示-1"><pre><code><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;blog header info&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;prefix&quot;</span><span class="punctuation">:</span> <span class="string">&quot;blog&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;body&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">            <span class="string">&quot;---&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="string">&quot;title: \&quot;$&#123;1:在此处添加标题&#125;\&quot;&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="string">&quot;date: $&#123;CURRENT_YEAR&#125;-$&#123;CURRENT_MONTH&#125;-$&#123;CURRENT_DATE&#125; $&#123;CURRENT_HOUR&#125;:$&#123;CURRENT_MINUTE&#125;:$&#123;CURRENT_SECOND&#125; &quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="string">&quot;updated: $&#123;CURRENT_YEAR&#125;-$&#123;CURRENT_MONTH&#125;-$&#123;CURRENT_DATE&#125; $&#123;CURRENT_HOUR&#125;:$&#123;CURRENT_MINUTE&#125;:$&#123;CURRENT_SECOND&#125;&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="string">&quot;copyright_author: Star &quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="string">&quot;copyright_url:  &quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="string">&quot;description: $&#123;2:笔记描述&#125;&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="string">&quot;categories: $&#123;3|后端笔记,前端笔记,SQL笔记,工具笔记,算法笔记,计算机笔记,其他笔记|&#125;&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="string">&quot;tags: $&#123;4|JAVA,Mysql,Springboot,Linux,计算机基础,算法|&#125;&quot;</span><span class="punctuation">,</span></span><br><span class="line"></span><br><span class="line">            <span class="string">&quot;---&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="string">&quot;&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="string">&quot;$&#123;0:在此处编辑  的博客摘要&#125;&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="string">&quot;&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;markdown 头部信息模版&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure></code></pre><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="代码与图示-2"><p><img src="https://tva1.sinaimg.cn/large/007aspWngy1h8oo2vi676j30rw0azq9c.jpg" alt="代码解释图"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>              </div>            </details><h1 id="打开Markdown自定义补全功能"><a href="#打开Markdown自定义补全功能" class="headerlink" title="打开Markdown自定义补全功能"></a>打开Markdown自定义补全功能</h1><p>文件-&gt;首选项-&gt;设置-&gt;(右上角)打开设置，将下面这段设置写入setting.json文件</p><details class="folding-tag" ><summary> 自定义补全代码与步骤示图 </summary>              <div class='content'>              <div class="tabs" id="tabs2"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#tabs2-1">代码</button></li><li class="tab"><button type="button" data-href="#tabs2-2">图示1</button></li><li class="tab"><button type="button" data-href="#tabs2-3">图示2</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="tabs2-1"><pre><code><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">&quot;[markdown]&quot;</span><span class="punctuation">:</span>  <span class="punctuation">&#123;</span></span><br><span class="line"><span class="attr">&quot;editor.quickSuggestions&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure></code></pre><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="tabs2-2"><p><img src="https://tva1.sinaimg.cn/large/007aspWngy1h8oooy2infj30y30ir0xt.jpg" alt="图示1"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="tabs2-3"><p><img src="https://tva1.sinaimg.cn/large/007aspWngy1h8oorml1l4j30fc04y75s.jpg" alt="图示2"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>              </div>            </details><h1 id="关于代码片段编写的更多细节"><a href="#关于代码片段编写的更多细节" class="headerlink" title="关于代码片段编写的更多细节"></a>关于代码片段编写的更多细节</h1><h2 id="关于文件名称"><a href="#关于文件名称" class="headerlink" title="关于文件名称"></a>关于文件名称</h2><p>在阅读前面的博客内容时，你可能注意到了：添加全局代码片段的时候，文件扩展名为 .code-snippets，例如 blog.code-snippets；添加语言特定的代码片段的时候，扩展名为 .json，如 markdown.json。这个规则无论在全局还是在工作区，都是一样适用的。</p><h2 id="光标停留点（Tabstop）"><a href="#光标停留点（Tabstop）" class="headerlink" title="光标停留点（Tabstop）"></a>光标停留点（Tabstop）</h2><details class="folding-tag" ><summary> 光标停留点 </summary>              <div class='content'>              <p>使用 $1 $2 这些可以作为按下 Tab 键时的光标停留位置，而 $0 无论出现在代码片段的哪个地方，都会是最后一个光标位置。</p>              </div>            </details><h2 id="占位符"><a href="#占位符" class="headerlink" title="占位符"></a>占位符</h2><details class="folding-tag" ><summary> 占位符 </summary>              <div class='content'>              <p>${1:占位符 Id} 可以表示一个占位符。当你插入此代码片段的时候，会出现 占位符 Id 字样，然后光标会选中这几个字以便你进行修改。</p><p>占位符可以嵌套，例如 ${1:walterlv 的 ${2:嵌套占位符}}。这时，光标会首先选中所有的文字，随后按下 Tab 之后选中后面那一部分。</p><p>在前面那个比较复杂的博客代码片段中，${1:在此处添加标题} 就是一个占位符，而 ${0:在此处编辑 blog.walterlv.com 的博客摘要} 就是光标的最终停留点。</p>              </div>            </details><h2 id="下拉选项"><a href="#下拉选项" class="headerlink" title="下拉选项"></a>下拉选项</h2><details class="folding-tag" ><summary> 下拉选项 </summary>              <div class='content'>              <p>使用 ${1|选项 1,选项 2,选项 3|} 可以创建三个选项的下拉框。</p><p>在前面的博客代码片段中，${2|dotnet,csharp,uwp|} 就是一个下拉选框，帮助我选择常用的一些博客类别。</p>              </div>            </details><h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><details class="folding-tag" ><summary> 变量 </summary>              <div class='content'>              <p>使用 $变量名 或者 ${变量名:变量的默认值} 可以创建变量。</p><p>在 Visual Studio Code 中，你有这些变量可以使用：</p><p>-TM_SELECTED_TEXT - 在插入代码片段的时刻选中的文本 -TM_CURRENT_LINE - 在插入代码片段的时刻光标所在的行 -TM_CURRENT_WORD - 在插入代码片段的时刻光标所在的词 -TM_LINE_INDEX - 在插入代码片段的时刻的行号（0 为首行） -TM_LINE_NUMBER - 当前文档的总行数 -TM_FILENAME - 当前文档的文件名称 -TM_FILENAME_BASE - 当前文档不含扩展名的名称 -TM_DIRECTORY - 当前文档所在的文件夹 -TM_FILEPATH - 当前文档的完全路径 -CLIPBOARD - 剪贴板中的内容 -CURRENT_YEAR - 年 -CURRENT_YEAR_SHORT - 两位数字显示的年 -CURRENT_MONTH - 月，如 02 -CURRENT_MONTH_NAME - 月的英文名称，如 July -CURRENT_MONTH_NAME_SHORT - 月的英文缩写，如 Jul -CURRENT_DATE - 日 -CURRENT_DAY_NAME - 星期的英文名称，如 Monday -CURRENT_DAY_NAME_SHORT - 星期的英文缩写，如 Mon -CURRENT_HOUR - 24 小时制的时 -CURRENT_MINUTE - 分 -CURRENT_SECOND - 秒</p><p>所以在上面比较复杂的博客模板中，我们可以直接插入当前的时间 ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND} +0800。</p>              </div>            </details>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> VSCode </tag>
+            
+        </tags>
       
     </entry>
     
@@ -21,25 +58,31 @@
       <link href="/2022/11/29/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
       <url>/2022/11/29/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
       
-        <content type="html"><![CDATA[<h1 id="标题一"><a href="#标题一" class="headerlink" title="标题一"></a>标题一</h1><u>文本内容</u><emp>文本内容</emp><wavy>文本内容</wavy><del>文本内容</del><kbd>文本内容</kbd><psw>文本内容</psw><h2 id="标题二"><a href="#标题二" class="headerlink" title="标题二"></a>标题二</h2>]]></content>
+        <content type="html"><![CDATA[<h1 id="标题一"><a href="#标题一" class="headerlink" title="标题一"></a>标题一</h1><u>文本内容</u><emp>文本内容</emp><wavy>文本内容</wavy><del>文本内容</del><kbd>文本内容</kbd><psw>文本内容</psw><details class="folding-tag" ><summary> 测试 </summary>              <div class='content'>              <div class="tabs" id="test1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test1-1">test1 1</button></li><li class="tab"><button type="button" data-href="#test1-2">test1 2</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>              </div>            </details><h2 id="标题二"><a href="#标题二" class="headerlink" title="标题二"></a>标题二</h2>]]></content>
       
       
       <categories>
           
-          <category> JAVA </category>
+          <category> 工具笔记 </category>
           
-          <category> Mysql </category>
+          <category> 后端笔记 </category>
           
-          <category> Python </category>
+          <category> SQL笔记 </category>
           
-          <category> 计算机基础 </category>
+          <category> 前端笔记 </category>
           
-          <category> 算法 </category>
+          <category> 算法笔记 </category>
+          
+          <category> 计算机笔记 </category>
+          
+          <category> 其他笔记 </category>
           
       </categories>
       
       
         <tags>
+            
+            <tag> VSCode </tag>
             
             <tag> JAVA </tag>
             
@@ -48,19 +91,6 @@
             <tag> 计算机基础 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Copyright-beautify</title>
-      <link href="/2021/03/02/hello-world/"/>
-      <url>/2021/03/02/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
       
     </entry>
     
