@@ -63,11 +63,11 @@
       
       <categories>
           
-          <category> 工具笔记 </category>
+          <category> SQL笔记 </category>
           
           <category> 后端笔记 </category>
           
-          <category> SQL笔记 </category>
+          <category> 工具笔记 </category>
           
           <category> 前端笔记 </category>
           
@@ -82,13 +82,13 @@
       
         <tags>
             
-            <tag> VSCode </tag>
-            
             <tag> JAVA </tag>
             
             <tag> Springboot </tag>
             
             <tag> 计算机基础 </tag>
+            
+            <tag> VSCode </tag>
             
         </tags>
       
