@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.staro.cc/2022/12/14/221214-Vue-createProject/</loc>
+    
+    <lastmod>2022-12-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.staro.cc/tags/index.html</loc>
     
     <lastmod>2022-12-14</lastmod>
@@ -130,6 +139,13 @@
   
   <url>
     <loc>https://www.staro.cc/tags/Mysql/</loc>
+    <lastmod>2022-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.staro.cc/tags/Vue/</loc>
     <lastmod>2022-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
