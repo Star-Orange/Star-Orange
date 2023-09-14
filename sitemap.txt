@@ -1,11 +1,11 @@
-https://www.staro.cc/post/aliyun-signIn.html
-https://www.staro.cc/about/index.html
-https://www.staro.cc/bili/index.html
-https://www.staro.cc/categories/index.html
 https://www.staro.cc/link/index.html
 https://www.staro.cc/movies/index.html
 https://www.staro.cc/music/index.html
 https://www.staro.cc/tags/index.html
+https://www.staro.cc/about/index.html
+https://www.staro.cc/bili/index.html
+https://www.staro.cc/categories/index.html
+https://www.staro.cc/post/aliyun-signIn.html
 https://www.staro.cc/post/docker-basicsOrder.html
 https://www.staro.cc/post/c3bd9a63.html
 https://www.staro.cc/post/6370f8cd.html
