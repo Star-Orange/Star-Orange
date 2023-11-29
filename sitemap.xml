@@ -65,6 +65,15 @@
   </url>
   
   <url>
+    <loc>https://www.staro.cc/post/designModeTotality.html</loc>
+    
+    <lastmod>2023-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.staro.cc/post/gitPushQuestion.html</loc>
     
     <lastmod>2023-10-29</lastmod>
@@ -328,13 +337,6 @@
   </url>
   
   <url>
-    <loc>https://www.staro.cc/categories/SQL%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2023-11-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.staro.cc/categories/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-11-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -343,6 +345,13 @@
   
   <url>
     <loc>https://www.staro.cc/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2023-11-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.staro.cc/categories/SQL%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
