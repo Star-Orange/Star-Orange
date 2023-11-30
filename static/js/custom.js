@@ -1,0 +1,1 @@
+var down=document.getElementById("scroll-down");down.remove();
