@@ -1,10 +1,10 @@
-https://www.staro.cc/about/index.html
-https://www.staro.cc/bili/index.html
-https://www.staro.cc/categories/index.html
+https://www.staro.cc/tags/index.html
 https://www.staro.cc/link/index.html
 https://www.staro.cc/movies/index.html
 https://www.staro.cc/music/index.html
-https://www.staro.cc/tags/index.html
+https://www.staro.cc/about/index.html
+https://www.staro.cc/bili/index.html
+https://www.staro.cc/categories/index.html
 https://www.staro.cc/post/factoryDesignMode.html
 https://www.staro.cc/post/designModeTotality.html
 https://www.staro.cc/post/gitPushQuestion.html
