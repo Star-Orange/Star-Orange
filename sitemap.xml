@@ -65,6 +65,15 @@
   </url>
   
   <url>
+    <loc>https://www.staro.cc/collect/index.html</loc>
+    
+    <lastmod>2023-12-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.staro.cc/post/factoryDesignMode.html</loc>
     
     <lastmod>2023-10-30</lastmod>
