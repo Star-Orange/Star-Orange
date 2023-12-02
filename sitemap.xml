@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.staro.cc/post/1e857e9f.html</loc>
+    
+    <lastmod>2023-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.staro.cc/post/3903b0af.html</loc>
     
     <lastmod>2023-12-02</lastmod>
@@ -11,7 +20,43 @@
   </url>
   
   <url>
+    <loc>https://www.staro.cc/link/index.html</loc>
+    
+    <lastmod>2023-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.staro.cc/movies/index.html</loc>
+    
+    <lastmod>2023-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.staro.cc/music/index.html</loc>
+    
+    <lastmod>2023-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.staro.cc/tags/index.html</loc>
+    
+    <lastmod>2023-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.staro.cc/about/index.html</loc>
     
     <lastmod>2023-12-02</lastmod>
     
@@ -39,42 +84,6 @@
   
   <url>
     <loc>https://www.staro.cc/collect/index.html</loc>
-    
-    <lastmod>2023-12-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.staro.cc/link/index.html</loc>
-    
-    <lastmod>2023-12-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.staro.cc/movies/index.html</loc>
-    
-    <lastmod>2023-12-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.staro.cc/about/index.html</loc>
-    
-    <lastmod>2023-12-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.staro.cc/music/index.html</loc>
     
     <lastmod>2023-12-02</lastmod>
     
@@ -313,13 +322,6 @@
   </url>
   
   <url>
-    <loc>https://www.staro.cc/tags/docker/</loc>
-    <lastmod>2023-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.staro.cc/tags/dockerfile/</loc>
     <lastmod>2023-12-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -335,6 +337,13 @@
   
   <url>
     <loc>https://www.staro.cc/tags/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/</loc>
+    <lastmod>2023-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.staro.cc/tags/docker/</loc>
     <lastmod>2023-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
