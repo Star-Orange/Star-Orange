@@ -36,10 +36,10 @@ https://www.staro.cc/tags/Vue/
 https://www.staro.cc/tags/vue/
 https://www.staro.cc/tags/Mysql/
 https://www.staro.cc/tags/%E6%9D%82%E8%B0%88/
+https://www.staro.cc/tags/docker/
 https://www.staro.cc/tags/dockerfile/
 https://www.staro.cc/tags/docker-compose/
 https://www.staro.cc/tags/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/
-https://www.staro.cc/tags/docker/
 https://www.staro.cc/categories/%E5%90%8E%E7%AB%AF%E7%AC%94%E8%AE%B0/
 https://www.staro.cc/categories/%E5%85%B6%E4%BB%96%E7%AC%94%E8%AE%B0/
 https://www.staro.cc/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/
