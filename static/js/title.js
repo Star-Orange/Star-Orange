@@ -1,0 +1,1 @@
+var titleTime,OriginTitile=document.title;document.addEventListener("visibilitychange",(function(){document.hidden?(document.title="👀别跑家人~",clearTimeout(titleTime)):(document.title="🐖可算回来了～",titleTime=setTimeout((function(){document.title=OriginTitile}),2e3))}));
