@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>VSCode移动盘符位置</title>
+      <link href="/post/3903b0af.html"/>
+      <url>/post/3903b0af.html</url>
+      
+        <content type="html"><![CDATA[<p>很简单，总体分为三步 <code>剪切-&gt; 存放 -&gt; 上命令</code></p><p>当你会了这种方法，当你想移动其他的应用时，也是一模一样的。</p><h2 id="操作-vscode-插件下载存放地方"><a href="#操作-vscode-插件下载存放地方" class="headerlink" title="操作.vscode (插件下载存放地方)"></a>操作.vscode (插件下载存放地方)</h2><ul><li>第一步：找到<code>.vscode</code> 一般存放位置为<code>C:\Users\&#123;系统用户名&#125;</code>下,找到进行剪切<code>.vscode</code></li><li>第二步:找到需要存放的位置<code>ctrl+v</code>进行粘贴以我的为例<code>G:\VsCode\</code>我粘贴在该文件夹下</li><li>第三步:管理员身份运行cmd执行命令<code>mklink /D &quot;C:\Users\&#123;系统用户名&#125;\.vscode&quot; &quot;G:\VsCode\.vscode&quot;</code></li></ul><p>提示 : …. 创建的符号链接表示成功</p><h2 id="操作-Microsoft-VS-Code-应用程序存放地方"><a href="#操作-Microsoft-VS-Code-应用程序存放地方" class="headerlink" title="操作 Microsoft VS Code (应用程序存放地方)"></a>操作 Microsoft VS Code (应用程序存放地方)</h2><blockquote><p>和操作.vscode一模一样</p></blockquote><ul><li>第一步：找到<code>Microsoft VS Code</code> 一般存放位置为<code>C:\Program Files (x86)</code>下,找到进行剪切<code>Microsoft VS Code</code></li><li>第二步:找到需要存放的位置<code>ctrl+v</code>进行粘贴以我的为例<code>G:\VsCode\</code>我粘贴在该文件夹下</li><li>第三步:管理员身份运行cmd执行命令<code>mklink /D &quot;C:\Program Files (x86)\Microsoft VS Code&quot; &quot;G:\VsCode\Microsoft VS Code&quot;</code><br>提示 : …. 创建的符号链接表示成功</li></ul><blockquote><p>参考文章</p><ul><li><a href="https://www.jianshu.com/p/030f44855daf">mklink是使用</a></li><li><a href="https://blog.csdn.net/qq_33593432/article/details/123957913">Visual Studio Code 安装到其它盘，其它程序类似操作</a></li></ul></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 杂谈 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>md命令</title>
       <link href="/post/5c2fafc7.html"/>
       <url>/post/5c2fafc7.html</url>
