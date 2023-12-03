@@ -1,5 +1,3 @@
-https://www.staro.cc/post/1e857e9f.html
-https://www.staro.cc/post/3903b0af.html
 https://www.staro.cc/link/index.html
 https://www.staro.cc/movies/index.html
 https://www.staro.cc/music/index.html
@@ -8,6 +6,8 @@ https://www.staro.cc/about/index.html
 https://www.staro.cc/bili/index.html
 https://www.staro.cc/categories/index.html
 https://www.staro.cc/collect/index.html
+https://www.staro.cc/post/1e857e9f.html
+https://www.staro.cc/post/3903b0af.html
 https://www.staro.cc/post/factoryDesignMode.html
 https://www.staro.cc/post/designModeTotality.html
 https://www.staro.cc/post/gitPushQuestion.html
