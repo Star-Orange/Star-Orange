@@ -126,7 +126,7 @@
     
     
     <entry>
-      <title>-结构型代理设计模式</title>
+      <title>结构型代理设计模式</title>
       <link href="/post/proxyDesignMode.html"/>
       <url>/post/proxyDesignMode.html</url>
       
@@ -153,7 +153,7 @@
     
     
     <entry>
-      <title>-创建型构建者设计模式</title>
+      <title>创建型构建者设计模式</title>
       <link href="/post/builderDesignMode.html"/>
       <url>/post/builderDesignMode.html</url>
       
@@ -211,7 +211,7 @@
       <link href="/post/designModeTotality.html"/>
       <url>/post/designModeTotality.html</url>
       
-        <content type="html"><![CDATA[<h2 id="创建型模式"><a href="#创建型模式" class="headerlink" title="创建型模式"></a>创建型模式</h2><blockquote><p>这些设计模式提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是使用 new 运算符直接实例化对象。这使得程序在判断针对某个给定实例需要创建哪些对象时更加灵活。</p></blockquote><ul><li><a href="https://www.staro.cc/post/designModeSingle.html">单例设计模式</a> 独一无二的类</li><li><a href="https://www.staro.cc/post/factoryDesignMode.html">工厂设计模式</a> 方法调用创建指定类</li><li><a href="https://www.staro.cc/post/factoryDesignMode.html">原型设计模式</a> 拷贝类</li></ul><h2 id="结构型模式"><a href="#结构型模式" class="headerlink" title="结构型模式"></a>结构型模式</h2><blockquote><p>这些模式关注对象之间的组合和关系，旨在解决如何构建灵活且可复用的类和对象结构。</p></blockquote><h2 id="行为型模式"><a href="#行为型模式" class="headerlink" title="行为型模式"></a>行为型模式</h2><blockquote><p>这些模式关注对象之间的通信和交互，旨在解决对象之间的责任分配和算法的封装。</p><p>本文主要参考了<a href="https://www.runoob.com/design-pattern/design-pattern-tutorial.html">菜鸟教程</a>、<a href="https://blog.csdn.net/pyy542718473/article/details/127248128">23篇设计模式</a></p></blockquote>]]></content>
+        <content type="html"><![CDATA[<h2 id="创建型模式"><a href="#创建型模式" class="headerlink" title="创建型模式"></a>创建型模式</h2><blockquote><p>这些设计模式提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是使用 new 运算符直接实例化对象。这使得程序在判断针对某个给定实例需要创建哪些对象时更加灵活。</p></blockquote><ul><li><a href="https://www.staro.cc/post/designModeSingle.html">单例设计模式</a> 创建独一无二的类</li><li><a href="https://www.staro.cc/post/factoryDesignMode.html">工厂设计模式</a> 方法调用创建指定类</li><li><a href="https://www.staro.cc/post/factoryDesignMode.html">原型设计模式</a> 拷贝出一个新的类</li><li><a href="https://www.staro.cc/post/builderDesignMode.html">构建者设计模式</a> 创建一个强调过程顺序的类</li></ul><h2 id="结构型模式"><a href="#结构型模式" class="headerlink" title="结构型模式"></a>结构型模式</h2><blockquote><p>这些模式关注对象之间的组合和关系，旨在解决如何构建灵活且可复用的类和对象结构。</p></blockquote><ul><li><a href="https://www.staro.cc/post/proxyDesignMode.html">代理设计模式</a> 在不修改类的情况下，去对类进行增强(切点)</li><li><a href="https://www.staro.cc/post/adapterDesignMode.html">适配器设计模式</a> 在不修改原类的基础上去改变类的实现</li></ul><h2 id="行为型模式"><a href="#行为型模式" class="headerlink" title="行为型模式"></a>行为型模式</h2><blockquote><p>这些模式关注对象之间的通信和交互，旨在解决对象之间的责任分配和算法的封装。</p></blockquote><ul><li>本文主要参考了<a href="https://www.runoob.com/design-pattern/design-pattern-tutorial.html">菜鸟教程</a>、<a href="https://blog.csdn.net/pyy542718473/article/details/127248128">23篇设计模式</a></li></ul>]]></content>
       
       
       <categories>
