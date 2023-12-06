@@ -47,7 +47,7 @@
     
     
     <entry>
-      <title>原型设计模式</title>
+      <title>创建型原型设计模式</title>
       <link href="/post/prototypeDesignMode.html"/>
       <url>/post/prototypeDesignMode.html</url>
       
@@ -99,7 +99,34 @@
     
     
     <entry>
-      <title>设计模式-结构型模式-代理模式</title>
+      <title>结构型适配器设计模式</title>
+      <link href="/post/adapterDesignMode.html"/>
+      <url>/post/adapterDesignMode.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="适配器模式"><a href="#适配器模式" class="headerlink" title="适配器模式"></a>适配器模式</h2><p>适配器个人理解下来他的使用场景一般是用于</p><ul><li>在不改变原代码的基础上用适配器模式去改变他原有的代码(和代理模式是有区别的)</li><li>版本迭代也可以用这个模式</li></ul><p><a href="https://www.runoob.com/design-pattern/adapter-pattern.html">菜鸟</a>：</p><blockquote><p>适配器模式（Adapter Pattern）是作为两个不兼容的接口之间的桥梁。这种类型的设计模式属于结构型模式，它结合了两个独立接口的功能。</p><p>这种模式涉及到一个单一的类，该类负责加入独立的或不兼容的接口功能。举个真实的例子，读卡器是作为内存卡和笔记本之间的适配器。您将内存卡插入读卡器，再将读卡器插入笔记本，这样就可以通过笔记本来读取内存卡。</p><p>我们通过下面的实例来演示适配器模式的使用。其中，音频播放器设备只能播放 mp3 文件，通过使用一个更高级的音频播放器来播放 vlc 和 mp4 文件。</p></blockquote><h2 id="涉及相关角色"><a href="#涉及相关角色" class="headerlink" title="涉及相关角色"></a>涉及相关角色</h2><ul><li><strong>被适配器(adaptee)</strong>:原有的接口代码，需要被转换的代码</li><li><strong>目标</strong>：他定义了客户端需要的标准，他是被适配器和适配器的中间标准和规则的转换层，可以这么理解。它可以是接口也可以是抽象类，</li><li><strong>适配器(adapter)</strong>:负责根据目标的标准和规范去实现转换的接口</li></ul><h2 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h2><p>主要是适配器的继承和组合区别，组合就是在适配器中引用被适配器</p><ul><li>类适配器：（使用继承）简单理解就是 类适配器中的<strong>适配器角色</strong>==继承==<code>被适配器</code>和==实现==<code>目标角色</code>(注意看关键字，看示例也会知道区别)</li><li>对象适配器：（使用组合）类适配器中的<strong>适配器角色</strong>==组合==<code>被适配器</code>和==实现==<code>目标角色</code>(注意看关键字，看示例也会知道区别)</li></ul><p>对象适配器的好处就可以多实现,而且继承也是空缺的，类适配器已经堵住了继承</p><h2 id="类适配器"><a href="#类适配器" class="headerlink" title="类适配器"></a>类适配器</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// adaptee 被适配器</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Adaptee</span>&#123;</span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">round</span><span class="params">()</span>&#123;</span><br><span class="line">       System.out.println(<span class="string">&quot;圆孔耳机接口&quot;</span>);</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// target 目标</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">Ttarget</span>&#123;</span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">typeC</span><span class="params">()</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// adapter 适配器</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Adapter</span> <span class="keyword">extends</span> <span class="title class_">Adapatee</span> <span class="keyword">implements</span> <span class="title class_">Target</span>&#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">typeC</span><span class="params">()</span>&#123;</span><br><span class="line">        <span class="built_in">this</span>.round()</span><br><span class="line">        System.out.println(<span class="string">&quot;进行转换&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Type-C 耳机接口&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// main</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span>&#123;</span><br><span class="line">    <span class="type">Target</span> <span class="variable">newPort</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Adapter</span>();</span><br><span class="line">    newPort.typeC(); <span class="comment">// &quot;圆孔耳机接口&quot;  &quot;进行转换&quot; &quot;Type-C 耳机接口&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="对象适配器"><a href="#对象适配器" class="headerlink" title="对象适配器"></a>对象适配器</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// adaptee 被适配器</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Adaptee</span>&#123;</span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">round</span><span class="params">()</span>&#123;</span><br><span class="line">       System.out.println(<span class="string">&quot;圆孔耳机接口&quot;</span>);</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// target 目标</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">Ttarget</span>&#123;</span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">typeC</span><span class="params">()</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// adapter 适配器</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Adapter</span> <span class="keyword">implements</span> <span class="title class_">Target</span>&#123; <span class="comment">// 区别点</span></span><br><span class="line">    <span class="keyword">private</span> Adaptee adaptee;</span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Adapter</span><span class="params">()</span>&#123;</span><br><span class="line">        adaptee = <span class="keyword">new</span> <span class="title class_">Adaptee</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">typeC</span><span class="params">()</span>&#123;</span><br><span class="line">        <span class="built_in">this</span>.adaptee.round();</span><br><span class="line">        System.out.println(<span class="string">&quot;进行转换&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Type-C 耳机接口&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// main</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span>&#123;</span><br><span class="line">    <span class="type">Target</span> <span class="variable">newPort</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Adapter</span>();</span><br><span class="line">    newPort.typeC(); <span class="comment">// &quot;圆孔耳机接口&quot;  &quot;进行转换&quot; &quot;Type-C 耳机接口&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>适用场景：</p><ul><li>已经存在的类，它的方法和需求不匹配（方法结构相同或相似）的情况。</li><li>使用第三方提供的组件，但组件接口定义和自己要求的接口定义不同。</li></ul><p>优点：</p><ul><li>能提高类的透明性和复用，现有的类复用但不需要改变。</li><li>目标类和适配器类解耦，提高程序的扩展性。</li><li>在很多业务场景中符合开闭原则。</li></ul><p>缺点：</p><ul><li>适配器编写过程需要全面考虑，可能会增加系统的复杂性。</li><li>增加代码阅读难度，降级代码可读性，过多使用适配器会使系统代码变得凌乱。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 后端笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JAVA </tag>
+            
+            <tag> 设计模式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>-结构型代理设计模式</title>
       <link href="/post/proxyDesignMode.html"/>
       <url>/post/proxyDesignMode.html</url>
       
@@ -126,7 +153,7 @@
     
     
     <entry>
-      <title>设计模式-创建型-构建者模式</title>
+      <title>-创建型构建者设计模式</title>
       <link href="/post/builderDesignMode.html"/>
       <url>/post/builderDesignMode.html</url>
       
@@ -153,7 +180,7 @@
     
     
     <entry>
-      <title>设计模式-工厂模式</title>
+      <title>创建型工厂设计模式</title>
       <link href="/post/factoryDesignMode.html"/>
       <url>/post/factoryDesignMode.html</url>
       
@@ -230,7 +257,7 @@
     
     
     <entry>
-      <title>设计模式-单例模式</title>
+      <title>创建型单例设计模式</title>
       <link href="/post/designModeSingle.html"/>
       <url>/post/designModeSingle.html</url>
       
