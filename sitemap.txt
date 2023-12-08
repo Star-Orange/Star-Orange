@@ -1,8 +1,8 @@
-https://www.staro.cc/tags/index.html
 https://www.staro.cc/link/index.html
 https://www.staro.cc/movies/index.html
 https://www.staro.cc/music/index.html
 https://www.staro.cc/notice/index.html
+https://www.staro.cc/tags/index.html
 https://www.staro.cc/about/index.html
 https://www.staro.cc/bili/index.html
 https://www.staro.cc/categories/index.html
