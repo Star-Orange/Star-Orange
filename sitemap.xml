@@ -2,18 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.staro.cc/post/compositeDesignMode.html</loc>
-    
-    <lastmod>2023-12-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.staro.cc/link/index.html</loc>
     
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +13,7 @@
   <url>
     <loc>https://www.staro.cc/movies/index.html</loc>
     
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +22,7 @@
   <url>
     <loc>https://www.staro.cc/music/index.html</loc>
     
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,7 +31,7 @@
   <url>
     <loc>https://www.staro.cc/notice/index.html</loc>
     
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,7 +40,7 @@
   <url>
     <loc>https://www.staro.cc/tags/index.html</loc>
     
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,7 +49,7 @@
   <url>
     <loc>https://www.staro.cc/about/index.html</loc>
     
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,7 +58,7 @@
   <url>
     <loc>https://www.staro.cc/bili/index.html</loc>
     
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -76,7 +67,7 @@
   <url>
     <loc>https://www.staro.cc/categories/index.html</loc>
     
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -84,6 +75,24 @@
   
   <url>
     <loc>https://www.staro.cc/collect/index.html</loc>
+    
+    <lastmod>2023-12-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.staro.cc/post/flyweightDesignMode.html</loc>
+    
+    <lastmod>2023-12-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.staro.cc/post/compositeDesignMode.html</loc>
     
     <lastmod>2023-12-14</lastmod>
     
@@ -319,7 +328,7 @@
 
   <url>
     <loc>https://www.staro.cc/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -327,112 +336,112 @@
   
   <url>
     <loc>https://www.staro.cc/tags/JAVA/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/tags/%E8%84%9A%E6%9C%AC/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/tags/Springboot/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/tags/SpringBoot/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/tags/VSCode/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/tags/Vue/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/tags/vue/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/tags/Mysql/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/tags/docker/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/tags/dockerfile/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/tags/docker-compose/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/tags/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -441,49 +450,49 @@
   
   <url>
     <loc>https://www.staro.cc/categories/%E5%90%8E%E7%AB%AF%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/categories/%E5%85%B6%E4%BB%96%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/categories/SQL%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/categories/%E5%B7%A5%E5%85%B7%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/categories/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.staro.cc/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2023-12-14</lastmod>
+    <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
