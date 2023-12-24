@@ -9,6 +9,7 @@ https://www.staro.cc/categories/index.html
 https://www.staro.cc/collect/index.html
 https://www.staro.cc/post/flyweightDesignMode.html
 https://www.staro.cc/post/compositeDesignMode.html
+https://www.staro.cc/post/templateDesignMode.html
 https://www.staro.cc/post/ab688311.html
 https://www.staro.cc/post/facadeDesignMode.html
 https://www.staro.cc/post/bridgeDesignMode.html
