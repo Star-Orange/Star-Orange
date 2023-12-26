@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.staro.cc/post/commandDesignMode.html</loc>
+    <lastmod>2023-12-26</lastmod>
+  </url>
+  <url>
     <loc>https://www.staro.cc/post/viteVueTsUnifyManage.html</loc>
     <lastmod>2023-12-25</lastmod>
   </url>
   <url>
-    <loc>https://www.staro.cc/post/StrategyDesignMode.html</loc>
+    <loc>https://www.staro.cc/post/strategyDesignMode.html</loc>
     <lastmod>2023-12-25</lastmod>
   </url>
   <url>
