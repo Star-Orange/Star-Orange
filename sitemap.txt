@@ -1,4 +1,3 @@
-https://www.staro.cc/post/commandDesignMode.html
 https://www.staro.cc/link/index.html
 https://www.staro.cc/movies/index.html
 https://www.staro.cc/music/index.html
@@ -8,6 +7,7 @@ https://www.staro.cc/about/index.html
 https://www.staro.cc/bili/index.html
 https://www.staro.cc/categories/index.html
 https://www.staro.cc/collect/index.html
+https://www.staro.cc/post/commandDesignMode.html
 https://www.staro.cc/post/viteVueTsUnifyManage.html
 https://www.staro.cc/post/strategyDesignMode.html
 https://www.staro.cc/post/flyweightDesignMode.html
@@ -26,6 +26,7 @@ https://www.staro.cc/post/factoryDesignMode.html
 https://www.staro.cc/post/designModeTotality.html
 https://www.staro.cc/post/gitPushQuestion.html
 https://www.staro.cc/post/designModeSingle.html
+https://www.staro.cc/post/SpringBootValidate1.html
 https://www.staro.cc/post/SpringBootMergeSaToken.html
 https://www.staro.cc/post/nginx-docker-compose-deploy.html
 https://www.staro.cc/post/Springbootclod-docker-compose-deploy.html
@@ -43,6 +44,7 @@ https://www.staro.cc/tags/JAVA/
 https://www.staro.cc/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/
 https://www.staro.cc/tags/%E8%84%9A%E6%9C%AC/
 https://www.staro.cc/tags/Springboot/
+https://www.staro.cc/tags/%E5%90%8E%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/
 https://www.staro.cc/tags/SpringBoot/
 https://www.staro.cc/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/
 https://www.staro.cc/tags/VSCode/
