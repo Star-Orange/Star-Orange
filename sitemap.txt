@@ -1,3 +1,4 @@
+https://www.staro.cc/collect/index.html
 https://www.staro.cc/link/index.html
 https://www.staro.cc/movies/index.html
 https://www.staro.cc/music/index.html
@@ -6,7 +7,6 @@ https://www.staro.cc/tags/index.html
 https://www.staro.cc/about/index.html
 https://www.staro.cc/bili/index.html
 https://www.staro.cc/categories/index.html
-https://www.staro.cc/collect/index.html
 https://www.staro.cc/post/commandDesignMode.html
 https://www.staro.cc/post/viteVueTsUnifyManage.html
 https://www.staro.cc/post/strategyDesignMode.html
@@ -26,7 +26,7 @@ https://www.staro.cc/post/factoryDesignMode.html
 https://www.staro.cc/post/designModeTotality.html
 https://www.staro.cc/post/gitPushQuestion.html
 https://www.staro.cc/post/designModeSingle.html
-https://www.staro.cc/post/SpringBootValidate1.html
+https://www.staro.cc/post/SpringBootValidate2.html
 https://www.staro.cc/post/SpringBootValidate1.html
 https://www.staro.cc/post/SpringBootMergeSaToken.html
 https://www.staro.cc/post/nginx-docker-compose-deploy.html

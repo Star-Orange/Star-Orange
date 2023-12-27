@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.staro.cc/collect/index.html</loc>
+    
+    <lastmod>2023-12-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.staro.cc/link/index.html</loc>
     
     <lastmod>2023-12-27</lastmod>
@@ -66,15 +75,6 @@
   
   <url>
     <loc>https://www.staro.cc/categories/index.html</loc>
-    
-    <lastmod>2023-12-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.staro.cc/collect/index.html</loc>
     
     <lastmod>2023-12-27</lastmod>
     
@@ -254,9 +254,9 @@
   </url>
   
   <url>
-    <loc>https://www.staro.cc/post/SpringBootValidate1.html</loc>
+    <loc>https://www.staro.cc/post/SpringBootValidate2.html</loc>
     
-    <lastmod>2023-08-27</lastmod>
+    <lastmod>2023-08-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
